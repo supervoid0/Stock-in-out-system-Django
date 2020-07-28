@@ -1,0 +1,47 @@
+/*Align the title to the center of the page*/
+.table {
+  font-size: 15px;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Make alternating colors for the table rows*/
+.table tr:nth-child(odd) {
+  background: #b8cae4;
+}
+
+.table tr:nth-child(even) {
+  background: #dae5f4;
+}
+
+th {
+  background-color: #229722;
+  color: white;
+}
+.table_decoration {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  box-shadow: 12px 12px 20px 6px #9ab69a;
+}
+
+.notification {
+  background-color: #229722;
+  text-align: center;
+  border-radius: 1px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.notification h3 {
+  padding: 3px 20px 3px 20px;
+  display: inline-block;
+  margin: auto;
+  font-size: medium;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
